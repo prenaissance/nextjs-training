@@ -3,9 +3,11 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
+    "@next/eslint-plugin-next": "^13.0.7",
     "date-fns": "^2.29.3",
     "gray-matter": "^4.0.3",
     "next": "latest",
